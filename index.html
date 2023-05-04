@@ -1,0 +1,536 @@
+-
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>аптека.py</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Jura:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <div class="header-left">
+                    <a class="link" href="./index.html">
+                        <img class="link-img" src="./img/Vector.svg" alt="" aria-hidden="true">
+                        <h1 class="link-h1">аптека.py</h1>
+                    </a>
+                    <button class="header-btn">
+                        <span class="header-text">Каталог</span>
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                <div class="header-right">
+                    <input class="input" id="search" name="Я ищу.." type="search" placeholder="Я ищу.." required>
+                    <i class="icons fa-solid fa-magnifying-glass"></i>
+                    <div class="right">
+                        <nav class="right-nav">
+                            <ul class="right-ul">
+                                <li class="right-li">
+                                    <img class="right-img" src="./img/Frame-3.svg" alt="" aria-hidden="true">
+                                    <p class="right-text">Сравнение</p>
+                                </li>
+                                <li class="right-li">
+                                    <img class="right-img" src="./img/shop.svg" alt="" aria-hidden="true">
+                                    <p class="right-text">Корзина</p>
+                                </li>
+                            </ul>
+                        </nav>
+                        <button class="btn right-btn">
+                            <span class="btn-text">Войти</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- nav -->
+            <nav class="nav">
+                <hr>
+                <ul class="nav-ul">
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">Лекарственные средства</a>
+                    </li>
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">Витамины</a>
+                    </li>
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">БАД</a>
+                    </li>
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">Медицинские изделия</a>
+                    </li>
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">Медицинская техника</a>
+                    </li>
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">Мама и малыш</a>
+                    </li>
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">Диета и спорт</a>
+                    </li>
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">Гигиена</a>
+                    </li>
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">Косметика</a>
+                    </li>
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">Ортопедия</a>
+                    </li>
+                    <li class="ul-little">
+                        <a class="liittle-link" href="#">Оптика</a>
+                    </li>
+                </ul>
+                <hr>
+            </nav>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="main">
+        <div class="container">
+            <div class="main-container">
+                <div class="main-necessary">
+                    <div class="necessary">
+                        <h2 class="necessary-h2">Аптека.py — маркетплейс аптечных товаров</h2>
+                        <p class="necessary-text">Сравнивайте цены и бронируйте лекарства в ближайших аптеках!</p>
+                        <button class="btn">
+                            <span class="btn-text">K покупкам</span>
+                        </button>
+                    </div>
+                    <div class="necessary-2">
+                        <img class="main-img" src="./img/Telecommuting-pana-1.svg" alt="" aria-hidden="true">
+                    </div>
+                </div>
+            </div>
+            <!-- section -->
+            <section class="section">
+                <div class="h2">
+                    <h2 class="section-h2">Спецпредложения</h2>
+                    <div class="p-p">
+                        <p class="p">Смотреть все</p>
+                        <img src="./img/Frame.svg" alt="">
+                    </div>
+                </div>
+                <div class="section-2">
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="section-main-btn btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="section-main-btn btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!-- section-grid -->
+            <section class="section-grid">
+                <h2 class="grid-main">Популярные категории</h2>
+                <div class="grid-div">
+                    <div class="grid-div-child-1">
+                        <img class="grid-child-img-1" src="./img/image-5.svg" alt="" aria-hidden="true">
+                        <p class="grid-child-text">Лечение заболеваний печени</p>
+                    </div>
+                    <div class="grid-div-child">
+                        <img class="grid-child-img" src="./img/image-1.svg" alt="" aria-hidden="true">
+                        <p class="grid-child-text">От влажного кашля</p>
+                    </div>
+                    <div class="grid-div-child">
+                        <img class="grid-child-img" src="./img/image-2.svg" alt="" aria-hidden="true">
+                        <p class="grid-child-text">Уход за протезами</p>
+                    </div>
+                    <div class="grid-div-child">
+                        <img class="grid-child-img" src="./img/image-3(1).svg" alt="" aria-hidden="true">
+                        <p class="grid-child-text">Седативные средства</p>
+                    </div>
+                    <div class="grid-div-child">
+                        <img class="grid-child-img" src="./img/image-4.svg" alt="" aria-hidden="true">
+                        <p class="grid-child-text">Слабительные средства</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="h2">
+                    <h2 class="section-h2">Обратите внимание</h2>
+                    <div class="p-p">
+                        <p class="p">Смотреть все</p>
+                        <img src="./img/Frame.svg" alt="">
+                    </div>
+                </div>
+                <div class="section-2">
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!-- section-3 -->
+            <section class="section-3">
+                <h2 class="section-3-h2">Обратите внимание</h2>
+                <div class="section-3-img">
+                    <img class="section-img" src="./img/Frame-20.svg" alt="" aria-hidden="true">
+                    <img class="section-img" src="./img/Frame-21.svg" alt="" aria-hidden="true">
+                    <img class="section-img" src="./img/Frame-20.svg" alt="" aria-hidden="true">
+                    <img class="section-img" src="./img/Frame-21.svg" alt="" aria-hidden="true">
+                </div>
+            </section>
+            <section class="section-grid">
+                <h2 class="grid-main">Популярные категории</h2>
+                <div class="grid-div">
+                    <div class="grid-div-child">
+                        <img class="grid-child-img" src="./img/image-1.svg" alt="" aria-hidden="true">
+                        <p class="grid-child-text">От влажного кашля</p>
+                    </div>
+                    <div class="grid-div-child">
+                        <img class="grid-child-img" src="./img/image-2.svg" alt="" aria-hidden="true">
+                        <p class="grid-child-text">Уход за протезами</p>
+                    </div>
+                    <div class="grid-div-child">
+                        <img class="grid-child-img" src="./img/image-3(1).svg" alt="" aria-hidden="true">
+                        <p class="grid-child-text">Седативные средства</p>
+                    </div>
+                    <div class="grid-div-child">
+                        <img class="grid-child-img" src="./img/image-4.svg" alt="" aria-hidden="true">
+                        <p class="grid-child-text">Слабительные средства</p>
+                    </div>
+                    <div class="grid-div-child-2">
+                        <img class="grid-child-img" src="./img/image-5.svg" alt="" aria-hidden="true">
+                        <p class="grid-child-text">Лечение заболеваний печени</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="h2">
+                    <h2 class="section-h2">Полезное</h2>
+                    <div class="p-p">
+                        <p class="p">Смотреть все</p>
+                        <img src="./img/Frame.svg" alt="">
+                    </div>
+                </div>
+                <div class="section-2">
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                    <div class="section-main">
+                        <img class="section-main-img" src="./img/Rectangle-2.svg" alt="" aria-hidden="true">
+                        <h2 class="section-main-h2">Глицин Форте Эвалар</h2>
+                        <div class="section-h2-text">
+                            <div class="text-p">
+                                <p class="section-main-text">Цена в аптека.py</p>
+                                <p class="section-main-text-1">от 194₽</p>
+                            </div>
+                            <hr>
+                            <div class="h2-text-2">
+                                <p class="section-main-text-2">Средняя цена </p>
+                                <p class="section-main-text-2">294₽</p>
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <span class="btn-text">B корзину</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!-- cta -->
+            <section class="cta">
+                <h2 class="cta-h2">Что значит «аптека.py — маркетплейс аптечных товаров»?</h2>
+                <div class="cta-img-text">
+                    <div class="cta-child">
+                        <img class="cta-img" src="./img/Frame-33.svg" alt="" aria-hidden="true">
+                        <p class="cta-text">Ютека объединяет крупнейшие аптечные сети и интернет-аптеки</p>
+                        <img class="git remote add origin git@github.com:iyiy2008/birimch.git
+                        git branch -M main
+                        git push -u origin maincta-img" src="./img/Frame-34.svg" alt="" aria-hidden="true">
+                        <p class="cta-text">Цены и наличие товаров отображаются в реальном времени без наценки и
+                            комиссии</p>
+                        <img class="cta-img" src="./img/Frame-35.svg" alt="" aria-hidden="true">
+                        <p class="cta-text">Вы всегда можете найти необходимое по лучшей цене и заказать удобным
+                            способом</p>
+                    </div>
+                    <div class="cta-img-img">
+                        <img src="./img/Medical-prescription-pana-1.svg" alt="" aria-hidden="true">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <hr class="hr">
+        <div class="footer-comtainer container">
+            <div class="footer-right">
+                <a class="link" href="./index.html">
+                    <img class="link-img" src="./img/Vector.svg" alt="" aria-hidden="true">
+                    <h1 class="link-h1-1">аптека.py</h1>
+                </a>
+                <nav class="footer-nav">
+                    <ul class="footer-ul">
+                        <li class="footer-li">
+                            <a class="footer-link" href="#">Каталог</a>
+                        </li>
+                        <li class="footer-li">
+                            <a class="footer-link" href="#">Партнерская программа</a>
+                        </li>
+                        <li class="footer-li">
+                            <a class="footer-link" href="#">Подробнее o нас</a>
+                        </li>
+                        <li class="footer-li">
+                            <a class="footer-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-medim">
+                <p class="medim-text">Остались вопросы? Напишите нам</p>
+                <a class="text-2 footer-link" href="korablik@yandex.ru">korablik@yandex.ru</a>
+                <nav class="medim-nav">
+                    <ul class="medim-ul">
+                        <li class="medim">
+                            <a href="#">
+                                <img class="medim-img" src="./img/w.svg" alt="" aria-hidden="true">
+                            </a>
+                        </li>
+                        <li class="medim">
+                            <a href="#">
+                                <img class="medim-img" src="./img/ox.svg" alt="" aria-hidden="true">
+                            </a>
+                        </li>
+                        <li class="medim">
+                            <a href="#">
+                                <img class="medim-img" src="./img/qus.svg" alt="" aria-hidden="true">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-left">
+                <p class="left">Бесплатный звонок по России</p>
+                <a class="left-text footer-link" href="tel:8 (988) 545-55-55">8 (988) 545-55-55</a>
+                <p class="left-text">Мы в социальных сетях</p>
+                <nav class="medim-nav">
+                    <ul class="medim-ul">
+                        <li class="medim">
+                            <a href="#">
+                                <img class="medim-img" src="./img/w.svg" alt="" aria-hidden="true">
+                            </a>
+                        </li>
+                        <li class="medim">
+                            <a href="#">
+                                <img class="medim-img" src="./img/ox.svg" alt="" aria-hidden="true">
+                            </a>
+                        </li>
+                        <li class="medim">
+                            <a href="#">
+                                <img class="medim-img" src="./img/qus.svg" alt="" aria-hidden="true">
+                            </a>
+                        </li>
+                        <li class="medim">
+                            <a href="#">
+                                <img class="medim-img" src="./img/tel.svg" alt="" aria-hidden="true">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
